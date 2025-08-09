@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Investment Tracker</title>
+</head>
+<body>
+    <h1>Investment Tracker</h1>
+    <form id="investmentForm">
+        Symbol: <input type="text" id="symbol" required><br>
+        Start Date (YYYY-MM-DD): <input type="date" id="start_date" required><br>
+        <button type="submit">Add Investment</button>
+    </form>
+    <hr>
+    <button onclick="loadInvestments()">View All Investments</button>
+    <div id="result"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
